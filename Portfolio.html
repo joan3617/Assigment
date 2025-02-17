@@ -1,4 +1,3 @@
-<!-- portfolio.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+<style>
+.main {
+background: url(/istockphoto-1496673625-612x612.jpg);
+
+
+height: 100vh;
+width: 100%;
+
+background-size: cover;
+font-family: 'Times New Roman', Times, serif;
+
+
+}
+.hd{
+color: rgb(255, 255, 255);
+}
+
+.main-content::first-letter {
+    font-size: 2em;
+    color: rgb(255, 67, 67);
+    
+}
+</style>
+
+
 </head>
-<body>
+<body class="main">
+    
     <header>
         <h1>My Portfolio</h1>
         <nav>
@@ -16,25 +41,33 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="table.html">table</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+
+    <main class="hd">
         <section>
             <h2>Projects</h2>
             <ul>
                 <li>
                     <h3>Project 1</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ex fuga itaque dignissimos sequi doloremque ab voluptates quidem voluptas iste nesciunt ipsa non eius cumque eveniet, laborum modi illo. Placeat.</p>
+                    <p class="main-content">Proficient  in front-end programming languages the HTML and CSS </p>
+
+
+                <li><a href="/Africode _Abnas _High School/" style="color: chocolate;">view project</a></li>
                 </li>
                 <li>
                     <h3>Project 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quia temporibus reprehenderit, corrupti quidem dignissimos doloribus soluta veniam distinctio fugiat eum. Provident ducimus dicta, aliquam ad eius vel voluptatum illum?</p>
+                    <p class="main-content">Developing and maintaining web services and interfaces</p>
+                    
+                <li><a href="/Africode_Static_web/" style="color: chocolate;">view project</a></li>
                 </li>
                 <li>
                     <h3>Project 3</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem in non voluptates veritatis ad, deserunt fuga optio accusamus officiis laborum error minus dolore assumenda molestias neque architecto facere placeat dignissimos.</p>
+                    <p class="main-content">Conduct cross-browser testing</p>
+                    <li><a href="/Africode_static_web_development/" style="color: chocolate;">view project</a></li>
                 </li>
             </ul>
         </section>
